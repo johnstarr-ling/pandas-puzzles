@@ -6,7 +6,9 @@ Make data manipulation bearable. Solve pandas puzzles.
 
 Note that this repository assumes _no experience_ with `pandas`, though I _do_ expect that you have at least some Python experience. `pandas` beginners (cubs?) should start with the `easy` puzzles; those who have more experience with the package (yearlings?) can skim through these puzzles to ensure they've got good fundamentals. `medium` puzzles introduce more complex and less-common `pandas` methods and functions. Both `easy` and `medium` puzzles grow step-wise in difficulty and have more hand-holding regarding coding logic. `hard` puzzles attempt to mimic "real-world applications": each problem gives you a goal, raw data, and a gold dataframe, and you must figure out how to process the raw data into the gold dataframe. 
 
-All puzzles are in Jupyter notebooks (`.ipynb` files). Each problem is numbered and contains three kinds of cells: __goal__ cells tell you what you are supposed to do, __solution__ cells show you the intended output (though the actual solution itself is hidden), and __code__ cells are where you write your answer. __Code__ cells are marked with the comment `### YOUR CODE HERE`. If you find solutions that are more efficient than mine, please let me know and I will include this in the possible solutions set for each problem.
+All puzzles are in Jupyter notebooks[^2] (`.ipynb` files) -- **please solve the notebooks on Google Colab (links provided below).** To actually write code on the notebook, you will need to make a copy of the notebook.
+
+Within each notebook, each puzzle is numbered and contains three kinds of cells: __goal__ cells tell you what you are supposed to do, __solution__ cells show you the intended output (though the actual solution itself is hidden), and __code__ cells are where you write your answer. __Code__ cells are marked with the comment `### YOUR CODE HERE`. If you find solutions that are more efficient than mine, please let me know and I will include them in the possible solutions set for each problem.
 
 Some tips for solving these problems:
 - Documentation is your friend. Use [it](https://pandas.pydata.org/docs/).
@@ -15,4 +17,10 @@ Some tips for solving these problems:
 
 Best of luck!
 
+## PUZZLES 
+- [Easy puzzles](https://colab.research.google.com/drive/1ctHF2J8i-XgeQ1Vy7W5i8rrMd_iTM-z9?usp=sharing)
+
+
+
 [^1]: Selfishly, I created these puzzles to force myself to be better at `pandas`. 
+[^2]: To make things available to you personally, you can also find the full notebooks (aka notebooks **with solutions visible**) from the `notebooks` folder. Unfortunately, there is no easy way of hiding the input code when I give you the `.ipynb` files, so download at your own risk of spoiling the fun!
